@@ -1,0 +1,3 @@
+[submodule "ai-chatbot-angular-node"]
+	path = ai-chatbot-angular-node
+	url = https://github.com/patrik1970/ai-chatbot-angular-node.git
