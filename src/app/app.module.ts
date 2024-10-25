@@ -6,18 +6,18 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 
-
 @NgModule({
-  declarations: [],
+  declarations: [
+    AppComponent,
+    ChatBotComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppComponent,
-    ChatBotComponent,
     FormsModule,
     HttpClientModule
   ],
   providers: [],
-  // bootstrap: [AppComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
