@@ -4,6 +4,11 @@ This project is an AI chatbot client built with Angular and Node.js. It leverage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
 
+### Do Not Forget
+- Clone first ai-chatbot-angular-node
+- To run npm install after cloning the repository
+
+
 ## Project Structure
 
 ```
