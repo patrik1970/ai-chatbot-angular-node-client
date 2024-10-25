@@ -48,9 +48,7 @@ README.md
 
 ### Development Server
 
-Run [`ng serve`] in the ai-chatbot-angular-node-client
-
- directory for a dev server. Navigate to [`http://localhost:4200/`]. The application will automatically reload if you change any of the source files.
+Run [`ng serve`] in the ai-chatbot-angular-node-client directory for a dev server. Navigate to [`http://localhost:4200/`]. The application will automatically reload if you change any of the source files.
 
 ### Code Scaffolding
 
@@ -82,10 +80,7 @@ import { Injectable } from '@angular/core';
 import { Environment } from '../environments/environment';
 
 @Injectable
-
 ({
-
-
   providedIn: 'root'
 })
 export class ChatBotService {
@@ -113,49 +108,15 @@ Tailwind CSS configuration is defined in tailwind.config.js.
 
 ### Git Ignore
 
-The 
-
-.gitignore
-
- files in the root and 
-
-ai-chatbot-angular-node-client
-
- directories specify files and directories to be ignored by Git.
+The .gitignore files in the root and ai-chatbot-angular-node-client directories specify files and directories to be ignored by Git.
 
 ## Dependencies
 
 ### Frontend Dependencies
 
-The frontend dependencies are listed in 
-
-package.json
-
-.
+The frontend dependencies are listed in package.json.
 
 This documentation provides an overview of the project structure, setup instructions, and key components. For more detailed information, refer to the respective files and comments within the code.
-
-
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
