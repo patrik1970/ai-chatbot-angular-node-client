@@ -6,6 +6,9 @@ import { Environment } from '../environments/environment';
   providedIn: 'root'
 })
 export class ChatBotService {
+  uploadFile(formData: FormData) {
+    throw new Error('Method not implemented.');
+  }
 
   public apiUrl = Environment.apiUrl;
 
