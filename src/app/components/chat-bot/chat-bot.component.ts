@@ -9,7 +9,6 @@ import { Message } from '../../interfaces/message';
   styleUrls: ['./chat-bot.component.css']
 })
 export class ChatBotComponent {
-
   isChatbotOpen: boolean = false;
 
   rotation = 0; // Initial rotation angle
@@ -34,7 +33,6 @@ export class ChatBotComponent {
     this.rotationStyle = 'rotate(0deg)'; // Update the transform style
   }
 
-
   sendMessage() {
     this.data = this.message;
     this.messages.push({ 
@@ -50,6 +48,6 @@ export class ChatBotComponent {
         this.messages.push(data);
         this.loading = false;     
       });
-    }, 5000); 
+    }, 3000); 
   }  
 }
